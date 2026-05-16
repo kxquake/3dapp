@@ -1,4 +1,10 @@
 
+body {
+    background: linear-gradient(180deg, #3a3a3a 0%, #121212 100%);
+    color: #ffffff;
+    font-family: 'DM Sans', system-ui, sans-serif;
+}
+
 .brand-logo {
     font-family: 'DM Sans', system-ui, sans-serif;
     font-size: 1.5rem;
@@ -34,6 +40,8 @@
     border: none;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
+
+
 .product-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 16px rgba(0,0,0,0.15);
@@ -61,12 +69,9 @@
 
 .btn-outline-primary {
     border-color: #ffffff;
-    color: #ffffff;
+    color: #000000;
 }
-.btn-outline-primary:hover {
-    background-color: #ffffff;
-    color: white;
-}
+
 
 
 .content-section {
@@ -80,4 +85,14 @@
 .btn:focus, a:focus {
     outline: 3px solid #ffffff !important;
     outline-offset: 2px;
+}
+
+/* Card body styling: dark background to match site theme */
+.card, .card-body {
+    background: rgba(255,255,255,0.03);
+    color: #ffffff;
+}
+
+.card .card-body p, .card .card-body h5, .card .card-body h6 {
+    color: #ffffff;
 }
