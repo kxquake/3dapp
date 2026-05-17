@@ -1,0 +1,43 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Vinyl Record",
+            "description": "3D render of a CD in a vinyl record",
+            "modelFile": "models/product1.glb",
+            "thumbnail": "images/product1.jpg",
+            "hasAnimation": true,
+            "animationLabel": "CD Spin",
+            "gallery": [
+                "images/product1.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Speakers",
+            "description": "3D render of a pair of speakers",
+            "modelFile": "models/product2.glb",
+            "thumbnail": "images/product2.jpg",
+            "hasAnimation": true,
+            "animationLabel": "Speaker Demo",
+            "gallery": [
+                "images/product2.jpg",
+                "images/product2-front.jpg",
+                "images/product2-side.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Headphones",
+            "description": "3D render of a pair of headphones",
+            "modelFile": "models/product3.glb",
+            "thumbnail": "images/product3.jpg",
+            "hasAnimation": true,
+            "animationLabel": "Headphone Spin",
+            "gallery": [
+                "images/product3.jpg",
+                "images/product3-side.jpg"
+            ]
+        }
+    ]
+}

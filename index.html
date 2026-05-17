@@ -32,8 +32,7 @@
 
     <section id="home-section" class="content-section">
         <div class="container py-5">
-            <h1 class="display-4">Welcome to V Studios</h1>
-            <p class="lead"> Interactive 3D gallery.</p>
+            <h1 class="display-4">Interactive 3D gallery</h1>
             <div class="row mt-5">
                 <div class="col-md-4">
                     <div class="card product-card" onclick="loadProduct(1)">
@@ -113,10 +112,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h6 class="card-subtitle mb-2 text-muted">Lighting</h6>
-                            <button class="btn btn-sm btn-warning m-1" onclick="toggleLight('ambient')">Ambient</button>
-                            <button class="btn btn-sm btn-warning m-1" onclick="toggleLight('directional')">Directional</button>
+                            <button class="btn btn-sm btn-warning m-1" onclick="toggleLight('spot light')">Spot Light</button>
                             <label class="d-block mt-2">Intensity
-                                <input type="range" min="0" max="2" step="0.1" value="1" oninput="setLightIntensity(this.value)">
+                                <input type="range" min="0" max="100" step="0.1" value="1" oninput="setLightIntensity(this.value)">
                             </label>
                         </div>
                     </div>
